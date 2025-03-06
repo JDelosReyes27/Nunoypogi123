@@ -15,5 +15,5 @@ Mapped the Normalized tables as a Physical Data Model
 ![Screenshot](images/Screenshot%202025-03-06%20203603.png)
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
-![Screenshot](Midterm%20Task%201/images/data.png)
+![Screenshot](blob/main/Midterm%20Task%201/images/data.png)
 ## Here's the Physical Data Model
