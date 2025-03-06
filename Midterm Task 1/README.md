@@ -12,7 +12,7 @@ Perform Table split using 2NF
 Perform 3 NF
 Mapped the Normalized tables as a Physical Data Model
 ## STEP 3 Here's the screenshot of my output before I started data cleaning (See screenshot)
-1[Screenshot](
+![Screenshot](images/Screenshot%202025-03-06%20203603.png)
 
 ## STEP 4 Here's the screenshot of my output after I started data cleaning (See screenshot)
 ![Sample Output](images/1.JPG)
