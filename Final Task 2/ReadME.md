@@ -15,18 +15,18 @@
 ## Query Statements & Table Structure:
 ### Student:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230104.png)
 #### Table:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230108.png)
 ### Assignment:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230114.png)
 #### Table:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230118.png)
 ### Submission:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230124.png)
 #### Table:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230130.png)
 ## ER Diagram:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230135.png)
