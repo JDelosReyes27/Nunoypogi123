@@ -20,19 +20,19 @@ Product 10: "Speakers", 9.99
 ## Query Statements & Table Structure:
 ### Task 1:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230818.png)
 #### Table:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230824.png)
 ### Task 2:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230829.png)
 ### Task 3:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230844.png)
 #### Table:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230849.png)
 ## Task 4:
 #### Query:
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230854.png)
 #### Table
-![screenshot]()
+![screenshot](Image/Screenshot%202025-04-23%20230858.png)
