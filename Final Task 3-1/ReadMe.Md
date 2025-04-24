@@ -14,7 +14,7 @@
 ## Query Statements & Table Structure:
 ### Task 1:
 #### Query:
-![screenshot](Images/Task%201.PNG)
+![screenshot](images/Task%201.png)
 #### Table:
 ![screenshot](Images/Task%201_tbl.PNG)
 ### Task 2:
