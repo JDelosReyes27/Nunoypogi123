@@ -9,7 +9,7 @@
 ## Task 4:
 - Calculate the total number of students enrolled across all courses.
 ## Task 5:
-- Sort courses by **students_enrolled** in ascending order.
+- Sort courses by students_enrolled in ascending order.
 
 ## Query Statements & Table Structure:
 ### Task 1:
