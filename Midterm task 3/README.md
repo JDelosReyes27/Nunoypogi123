@@ -24,11 +24,11 @@ For this task we create an interactive Data Science Salary & Job Trends Dashboar
 
 ## Here's the Screenshot of My Output:
 ### Sal by Role Type:
-![screenshot](Images/Role%20Type.PNG)
+![screenshot](Images/jerome2.PNG)
 ### Sal by Size:
-![screenshot](Images/Size.PNG)
+![screenshot](Images/jerome3.PNG)
 ### Sal by State:
-![screenshot](Images/State.PNG)
+![screenshot](Images/jerome1.PNG)
 ### Dashboard: 
-![screenshot](Images/Dashboard.PNG)
+![screenshot](Images/jerome4.PNG)
 
