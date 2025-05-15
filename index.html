@@ -2,112 +2,228 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jerome Delos Reyes - Midterm Task 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Jerome Delos Reyes</title>
   <style>
+    /* General body and background setup */
     body {
+      background-color: #121212;
+      background-image: url('https://i.pinimg.com/originals/f4/fd/1c/f4fd1c79d428bc90ea8265d7f5c2b6e5.gif'); /* Infinite loop effect */
+      background-size: cover;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #e0e0e0;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #121212, #1e1e1e);
-      color: #f0f0f0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 2rem;
+      overflow-x: hidden;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     }
 
-    button {
-      padding: 12px 24px;
-      font-size: 1rem;
-      background-color: #00ffcc;
-      color: #000;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      margin-bottom: 1rem;
+    header {
+      background-color: rgba(30, 30, 30, 0.8);
+      padding: 40px 0;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1.5s ease-in-out;
     }
 
-    button:hover {
-      background-color: #00d6ac;
+    h1 {
+      font-size: 3.5em;
+      color: #00bcd4;
+      text-shadow: 0 0 20px rgba(0, 188, 212, 0.7);
+      margin: 0;
+      animation: pulse 1.5s infinite alternate;
     }
 
-    .container {
-      max-width: 900px;
-      padding: 2rem;
-      background: rgba(255, 255, 255, 0.03);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-      border-radius: 10px;
-      display: none; /* Hidden by default */
-      animation: fadeIn 0.5s ease-in-out;
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.05); }
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
 
-    h1, h2 {
-      color: #00ffcc;
+    nav {
+      background-color: rgba(30, 30, 30, 0.9);
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
 
-    img {
-      width: 100%;
-      max-width: 800px;
-      border: 1px solid #444;
-      margin: 1rem 0;
+    nav a {
+      color: #00bcd4;
+      text-decoration: none;
+      font-size: 1.1em;
+      padding: 10px 15px;
+      margin: 0 15px;
       border-radius: 5px;
+      transition: background-color 0.3s ease;
     }
 
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
+    nav a:hover {
+      background-color: rgba(0, 188, 212, 0.5);
+      color: white;
+      box-shadow: 0 0 15px rgba(0, 188, 212, 0.7);
+    }
+
+    .content {
+      padding: 50px;
+      z-index: 1;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 0;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .hero img {
+      width: 250px;
+      border: 5px solid rgba(0, 188, 212, 1);
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .hero img:hover {
+      transform: scale(1.1);
+    }
+
+    .section h2 {
+      font-size: 2.5em;
+      color: #00bcd4;
+      text-align: center;
+      text-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+      margin-bottom: 20px;
+    }
+
+    .section p, .section ul {
+      font-size: 1.1em;
+      text-align: center;
+    }
+
+    .box {
+      background-color: rgba(30, 30, 30, 0.8);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 188, 212, 0.5);
+      margin-bottom: 40px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    .box a {
+      display: block;
+      color: #e0e0e0;
+      background-color: rgba(0, 188, 212, 0.7);
+      text-decoration: none;
+      font-size: 1.2em;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+    }
+
+    .box a:hover {
+      background-color: rgba(0, 188, 212, 1);
+      color: #121212;
+    }
+
+    footer {
+      background-color: rgba(30, 30, 30, 0.9);
+      color: #00bcd4;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    footer p {
+      font-size: 1.1em;
+      text-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
   </style>
 </head>
 <body>
 
-  <button onclick="toggleTask()">Midterm Task 1</button>
+<header>
+  <h1>Jerome Delos Reyes</h1>
+</header>
 
-  <div class="container" id="taskContent">
-    <h1>Midterm Lab Task 1 - Data Cleaning and Preparation using Excel</h1>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Me</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-    <p>For this task we are given a Flat data from Excel (See rawfile) and we are tasked to perform Data Cleaning and Preparation.</p>
-
-    <h2>STEP 1: Data Cleaning Process</h2>
-    <ul>
-      <li>Load the raw file</li>
-      <li>Fit column and row width and height</li>
-      <li>TRIM extra spaces</li>
-      <li>Remove <code>NULL</code> values</li>
-      <li>Remove Duplicates</li>
-    </ul>
-
-    <h2>STEP 2: Normalization</h2>
-    <ul>
-      <li>Performed <strong>1NF</strong></li>
-      <li>Performed Table split using <strong>2NF</strong></li>
-      <li>Performed <strong>3NF</strong></li>
-      <li>Mapped the normalized tables as a Physical Data Model</li>
-    </ul>
-
-    <h2>STEP 3: Screenshot Before Data Cleaning</h2>
-    <img src="images/Screenshot%202025-03-06%20203603.png" alt="Before Data Cleaning" />
-
-    <h2>STEP 4: Screenshot After Data Cleaning</h2>
-    <img src="images/data.png" alt="After Data Cleaning" />
-
-    <h2>Physical Data Model</h2>
-    <p>📌 (Insert or link your Physical Data Model diagram here.)</p>
+<section class="hero" id="home">
+  <div class="box">
+    <h2>Welcome to My EDM Tasks Portfolio 💾</h2>
+    <p>This portfolio contains all of my documents in EDM.</p>
   </div>
+</section>
 
-  <script>
-    function toggleTask() {
-      const content = document.getElementById('taskContent');
-      content.style.display = content.style.display === 'none' || content.style.display === '' ? 'block' : 'none';
-    }
-  </script>
+<section class="section" id="about">
+  <div class="box">
+    <h2>About Me 🙋‍♂️</h2>
+    <div class="about-content">
+      <img src="https://github.com/user-attachments/assets/dff3da4f-90cd-4ad0-bd46-f4876ae9b835" alt="Jerome Delos Reyes">
+      <p>I am Jerome Delos Reyes, currently studying at City College of Angeles, taking Bachelor of Science in Information System. </p>
+    </div>
+  </div>
+</section>
 
-</body>
-</html>
+<section class="section" id="Education">
+  <div class="box">
+    <h2>Education 👨‍🎓</h2>
+    <p>College: City College of Angeles</p>
+    <p>High School: Eastern Porac National High School</p>
+    <p>Elementary: Manibaug Libutad Elementary School</p>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="box">
+    <h2>My Projects in Midterms 🛠️</h2>
+    <a href="#">Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL</a>
+    <a href="#">Midterm Lab Task 2: Data Cleaning and Preparation using Power Query</a>
+    <a href="#">Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
+  </div>
+</section>
+
+<section class="section" id="finals">
+  <div class="box">
+    <h2>My Projects in Finals 🛠️</h2>
+    <a href="#">Finals Lab Task 1: Excel Data Cleaning</a>
+    <a href="#">Finals Lab Task 2: Power Query</a>
+    <a href="#">Finals Lab Task 3: Dashboarding</a>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="box">
+    <h2>Contact Me 📞</h2>
+    <p>Reach out at <a href="mailto:jrecapor24-0115@cca.edu.ph">jrecapor24-0115@cca.edu.ph</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Jerome Delos Reyes. All rights reserved.</p>
