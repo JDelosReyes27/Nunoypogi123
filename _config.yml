@@ -211,10 +211,10 @@
     <!-- About Section -->
     <section class="section" id="about">
         <div class="box">
-            <h2>About Me 🙋‍♂️</h2>
+            <h2>About Me</h2>
              <div class="about-content">
             <img src="https://github.com/user-attachments/assets/dff3da4f-90cd-4ad0-bd46-f4876ae9b835" alt="John Paul A. Recapor">
-            <p>I am John Paul Recapor  currently studying in City College Of Angeles with a course of Bachelor of Science in Information System. And also currently working in Jollibee Cutcut Frienship :) 
+            <p>I am Jerome Delos Reyes currently studying in City College Of Angeles with a course of Bachelor of Science in Information System.
 .</p>
         </div>
     </section>
@@ -231,10 +231,10 @@
 <!-- Other Sections with Icons -->
 <section class="section" id="Education">
     <div class="box">
-        <h2>Education 👨‍🎓 </h2>
+        <h2>Education</h2>
         <p>College: Currently Studying at City College of Angeles</p>
-        <p>High School: Eastern Porac National High School</p>
-        <p>Elementary: Manibaug Libutad Elementary School</p>
+        <p>High School: Panipuan High School</p>
+        <p>Elementary: Panipuan Elementary School</p>
     </div>
 </section>
 
@@ -242,9 +242,9 @@
     <section class="section" id="projects">
         <div class="box">
             <h2>My Projects in MidTerms 🛠️</h2>
-            <a href="https://github.com/jrecapor/EDM-John-Paul/tree/main/Midterm" target="_blank">Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL</a>
-            <a href="https://github.com/jrecapor/EDM-John-Paul/tree/main/Midterm%20Task%202" target="_blank">Midterm Lab Task 2: Data Cleaning and Preparation using Power Query</a>
-            <a href="https://github.com/jrecapor/EDM-John-Paul/tree/main/Midterm%20Task%203" target="_blank">Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
+            https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%201: Data Cleaning and Preparation using EXCEL</a>
+            https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%202: Data Cleaning and Preparation using Power Query</a>
+            https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20task%203: Creating PIVOT TABLE and DASHBOARD</a>
         </div>
     </section>
 
