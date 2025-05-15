@@ -1,7 +1,13 @@
 {
   "siteTitle": "Jerome Delos Reyes Portfolio",
-  "backgroundImage": "https://images.unsplash.com/photo-1478116005564-6f3d7d7d11e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-  "textColor": "white",
-  "textShadow": "2px 2px 20px rgba(0, 0, 0, 0.8)",
-  "fontFamily": "Arial, sans-serif"
+  "backgroundImage": "assets/backrooms.jpg",
+  "author": "Jerome Delos Reyes",
+  "theme": {
+    "textColor": "white",
+    "font": "Arial, sans-serif"
+  },
+  "credit": {
+    "name": "dalay-lamma",
+    "url": "https://www.deviantart.com/dalay-lamma/art/The-Backrooms-wallpaper-seamless-909255587"
+  }
 }
