@@ -1,276 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EDM Portfolio</title>
-    <style>
-        /* General body and background setup */
-        body {
-            background-color: #121212;
-            background-image: url('https://media.giphy.com/media/l3vR9Oqj4Vb4jPynW/giphy.gif'); /* Replace with a valid image URL */
-            background-size: cover;
-            color: #e0e0e0;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            background-position: center;
-            background-attachment: fixed;
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EDM Portfolio</title>
+    <style>
+        /* General body and background setup */
+        body {
+            background-color: #121212;
+            background-image: url('https://gifdb.com/images/high/data-circuit-background-ht35fdefmne6n1dv.gif'); /* Replace with a valid image URL */
+            background-size: cover;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-position: center;
+            background-attachment: fixed;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
 
-        /* Header style */
-        header {
-            background-color: rgba(30, 30, 30, 0.8);
-            padding: 40px 0;
-            text-align: center;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            animation: fadeIn 1.5s ease-in-out;
-        }
+        /* Header style */
+        header {
+            background-color: rgba(30, 30, 30, 0.8);
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1.5s ease-in-out;
+        }
 
-        h1 {
-            font-size: 3.5em;
-            color: #00bcd4; /* Cyan color */
-            text-shadow: 0 0 20px rgba(0, 188, 212, 0.7);
-            margin: 0;
-            animation: pulse 1.5s infinite alternate;
-        }
+        h1 {
+            font-size: 3.5em;
+            color: #00bcd4; /* Cyan color */
+            text-shadow: 0 0 20px rgba(0, 188, 212, 0.7);
+            margin: 0;
+            animation: pulse 1.5s infinite alternate;
+        }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            100% {
-                transform: scale(1.05);
-            }
-        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.05);
+            }
+        }
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
 
-        /* Navigation styling */
-        nav {
-            background-color: rgba(30, 30, 30, 0.9);
-            padding: 15px;
-            text-align: center;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        }
+        /* Navigation styling */
+        nav {
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
 
-        nav a {
-            color: #00bcd4;
-            text-decoration: none;
-            font-size: 1.1em;
-            padding: 10px 15px;
-            margin: 0 15px;
-            transition: background-color 0.3s ease;
-            border-radius: 5px;
-        }
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            margin: 0 15px;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
 
-        nav a:hover {
-            background-color: rgba(0, 188, 212, 0.5);
-            color: white;
-            box-shadow: 0 0 15px rgba(0, 188, 212, 0.7);
-        }
+        nav a:hover {
+            background-color: rgba(0, 188, 212, 0.5);
+            color: white;
+            box-shadow: 0 0 15px rgba(0, 188, 212, 0.7);
+        }
 
-        /* Section styling */
-        .content {
-            padding: 50px;
-            z-index: 1;
-        }
+        /* Section styling */
+        .content {
+            padding: 50px;
+            z-index: 1;
+        }
 
-        .hero {
-            text-align: center;
-            padding: 100px 0;
-            animation: slideIn 1s ease-in-out;
-        }
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            animation: slideIn 1s ease-in-out;
+        }
 
-        @keyframes slideIn {
-            0% {
-                transform: translateY(-50px);
-                opacity: 0;
-            }
-            100% {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
 
-        .hero img {
-            width: 250px;
-            border: 5px solid rgba(0, 188, 212, 1);
-            box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
-            transition: transform 0.3s ease;
-            border-radius: 15px;
-        }
+        .hero img {
+            width: 250px;
+            border: 5px solid rgba(0, 188, 212, 1);
+            box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
+            transition: transform 0.3s ease;
+            border-radius: 15px;
+        }
 
-        .hero img:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 30px rgba(0, 188, 212, 0.7);
-        }
+        .hero img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px rgba(0, 188, 212, 0.7);
+        }
 
-        /* Section headers */
-        .section h2 {
-            font-size: 2.5em;
-            color: #00bcd4;
-            text-align: center;
-            text-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
-            animation: fadeIn 1.5s ease-in-out;
-            margin-bottom: 20px;
-        }
+        /* Section headers */
+        .section h2 {
+            font-size: 2.5em;
+            color: #00bcd4;
+            text-align: center;
+            text-shadow: 0 0 15px rgba(0, 188, 212, 0.5);
+            animation: fadeIn 1.5s ease-in-out;
+            margin-bottom: 20px;
+        }
 
-        .section p, .section ul {
-            font-size: 1.1em;
-            text-align: center;
-        }
+        .section p, .section ul {
+            font-size: 1.1em;
+            text-align: center;
+        }
 
-        /* Box around sections for contrast */
-        .box {
-            background-color: rgba(30, 30, 30, 0.8);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0  0 25px rgba(0, 188, 212, 0.5);
-            margin-bottom: 40px;
-            transition: transform 0.3s ease-in-out;
-        }
+        /* Box around sections for contrast */
+        .box {
+            background-color: rgba(30, 30, 30, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0  0 25px rgba(0, 188, 212, 0.5);
+            margin-bottom: 40px;
+            transition: transform 0.3s ease-in-out;
+        }
 
-        .box:hover {
-            transform: scale(1.05);
-        }
+        .box:hover {
+            transform: scale(1.05);
+        }
 
-        /* Project links inside boxes */
-        .box a {
-            display: block;
-            color: #e0e0e0;
-            background-color: rgba(0, 188, 212, 0.7);
-            text-decoration: none;
-            font-size: 1.2em;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 10px;
-            text-align: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
-        }
+        /* Project links inside boxes */
+        .box a {
+            display: block;
+            color: #e0e0e0;
+            background-color: rgba(0, 188, 212, 0.7);
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+        }
 
-        .box a:hover {
-            background-color: rgba(0, 188, 212, 1);
-            color: #121212;
-            box-shadow: 0 0 20px rgba(0, 188, 212, 0.7);
-        }
+        .box a:hover {
+            background-color: rgba(0, 188, 212, 1);
+            color: #121212;
+            box-shadow: 0 0 20px rgba(0, 188, 212, 0.7);
+        }
 
-        /* Footer styling */
-        footer {
-            background-color: rgba(30, 30, 30, 0.9);
-            color: #00bcd4;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        }
+        /* Footer styling */
+        footer {
+            background-color: rgba(30, 30, 30, 0.9);
+            color: #00bcd4;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
 
-        footer p {
-            font-size: 1.1em;
-            text-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
-        }
+        footer p {
+            font-size: 1.1em;
+            text-shadow: 0 0 8px rgba(0, 188, 212, 0.5);
+        }
 
-        /* Add smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+        /* Add smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>Jerome Delos Reyes</h1>
+    <h1>Jerome Delos Reyes</h1>
 </header>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Me</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
 </nav>
 
 <!-- Hero Section -->
 <section class="hero" id="home">
-    <div class="box">
-        <h2>Welcome to My EDM Tasks Portfolio💾 </h2>
-        <div class="home-content">
-        <p>This Portfolio contains all of my documents in EDM.</p>
-    </div>
+    <div class="box">
+        <h2>Welcome to My EDM Tasks Portfolio💾 </h2>
+        <div class="home-content">
+        <p>This Portfolio contains all of my documents in EDM.</p>
+    </div>
 </section>
 
 <!-- About Section -->
 <section class="section" id="about">
-    <div class="box">
-        <h2>About Me 🙋‍♂️</h2>
-         <div class="about-content">
-        <img src="https://avatars.githubusercontent.com/u/202104250?s=400&u=efcd89ee1a19a0ecaf70a1c4fbb654a45a48c358&v=4" alt="Jerome Delos Reyes">
-        <p>I am Jerome Delos Reyes, currently studying at City College of Angeles with a course in Bachelor of Science in Information System.</p>
-    </div>
+    <div class="box">
+        <h2>About Me 🙋‍♂️</h2>
+         <div class="about-content">
+        <img src="https://avatars.githubusercontent.com/u/202104250?s=400&u=efcd89ee1a19a0ecaf70a1c4fbb654a45a48c358&v=4" alt="Jerome Delos Reyes">
+        <p>I am Jerome Delos Reyes, currently studying at City College of Angeles with a course in Bachelor of Science in Information System.</p>
+    </div>
 </section>
 <style>
 .about-content {
-    text-align: center; /* Centers the content inside the div */
+    text-align: center; /* Centers the content inside the div */
 }
 .about-content img {
-    display: block; /* Makes the image a block element */
-    margin: 0 auto; /* Centers the image horizontally */
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
 }
 </style>
 
 <!-- Other Sections with Icons -->
 <section class="section" id="Education">
-    <div class="box">
-        <h2>Education 👨‍🎓 </h2>
-        <p>College: Currently Studying at City College of Angeles</p>
-        <p>High School: Panipuan High School</p>
-        <p>Elementary: Panipuan Elementary School</p>
-    </div>
+    <div class="box">
+        <h2>Education 👨‍🎓 </h2>
+        <p>College: Currently Studying at City College of Angeles</p>
+        <p>High School: Panipuan High School</p>
+        <p>Elementary: Panipuan Elementary School</p>
+    </div>
 </section>
 
 <!-- Projects Section -->
 <section class="section" id="projects">
-    <div class="box">
-        <h2>My Projects in MidTerms 🛠️</h2>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%201" target="_blank">Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL</a>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%202" target="_blank">Midterm Lab Task 2: Data Cleaning and Preparation using Power Query</a>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20task%203" target="_blank">Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
-    </div>
+    <div class="box">
+        <h2>My Projects in MidTerms 🛠️</h2>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%201" target="_blank">Midterm Lab Task 1: Data Cleaning and Preparation using EXCEL</a>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20Task%202" target="_blank">Midterm Lab Task 2: Data Cleaning and Preparation using Power Query</a>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Midterm%20task%203" target="_blank">Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
+    </div>
 </section>
 
 <!-- Other Projects Section -->
 <section class="section" id="finals">
-    <div class="box">
-        <h2>My Projects in Finals 🛠️</h2>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Finals%20Task%201" target="_blank">Finals Lab Task 1:: Data Cleaning and Preparation using EXCEL</a>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%202" target="_blank">Finals Lab Task 2: Data Cleaning and Preparation using Power Query</a>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%203" target="_blank">Finals Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
-        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%203-1" target="_blank">Finals Lab Task 3-1: Creating PIVOT TABLE and DASHBOARD</a>
-    </div>
+    <div class="box">
+        <h2>My Projects in Finals 🛠️</h2>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Finals%20Task%201" target="_blank">Finals Lab Task 1:: Data Cleaning and Preparation using EXCEL</a>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%202" target="_blank">Finals Lab Task 2: Data Cleaning and Preparation using Power Query</a>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%203" target="_blank">Finals Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a>
+        <a href="https://github.com/JDelosReyes27/Nunoypogi123/tree/main/Final%20Task%203-1" target="_blank">Finals Lab Task 3-1: Creating PIVOT TABLE and DASHBOARD</a>
+    </div>
 </section>
 
 <!-- Contact Section -->
 <section class="section" id="contact">
-    <div class="box">
-        <h2>Contact Me 📞</h2>
-        <p>If you'd like to get in touch, feel free to reach out at  
-        <a href="mailto:jdelosreyes24-0172@cca.edu.ph">jdelosreyes24-0172@cca.edu.ph</a></p>
-    </div>
+    <div class="box">
+        <h2>Contact Me 📞</h2>
+        <p>If you'd like to get in touch, feel free to reach out at  
+        <a href="mailto:jdelosreyes24-0172@cca.edu.ph">jdelosreyes24-0172@cca.edu.ph</a></p>
+    </div>
 </section>
 
 <!-- Footer -->
 <footer>
-    <p>© 2025 Jerome Delos Reyes. All rights reserved.</p>
-    <a href="https://github.com/JDelosreyes27/EDM-Jerome" target="_blank" style="color: #00bcd4;">View This GitHub</a>
+    <p>© 2025 Jerome Delos Reyes. All rights reserved.</p>
+    <a href="https://github.com/JDelosreyes27/EDM-Jerome" target="_blank" style="color: #00bcd4;">View This GitHub</a>
 </footer>
 
 </body>
